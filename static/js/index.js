@@ -8,7 +8,7 @@ function toggleModal() {
 
 document.querySelector(".submitbtn").addEventListener("click", function () {
     // Change " Blooket " to your desired username and do the same with " certified " for your desired password. or leave as is to keep it the same
-    if (document.querySelector(".usernameinput").value == "Blooket" && document.querySelector(".passwordinput").value == "certified") {
+    if (document.querySelector(".usernameinput").value == "Blooket" && document.querySelector(".passwordinput").value == "cert") {
         var logtext = document.querySelector(".logtext");
         var typewriter = new Typewriter(logtext, {
             loop: false,
